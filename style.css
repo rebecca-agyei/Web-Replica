@@ -1,0 +1,132 @@
+body{
+    min-height: 100%;
+    width: 100%;
+    background: #1160d6;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    background-image: url(/imgs/backgrd2.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif !important;;
+
+}
+
+.container .smart{
+    position: absolute;
+    left: 30px; 
+    top: 30px;
+    border: none; 
+}
+
+.container .people{
+    position: absolute;
+    left: 80px; 
+    top: 125px;
+    border: none;   
+}
+
+.container .Infos{
+    position: absolute;
+    left: 80px;
+    top: 450px;
+    color: #fff;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+ul li{
+    margin: 5px 0;
+}
+
+.container .sign-in{
+    background: #fff;
+    border: 1px solid #dde0e5;
+    box-shadow: 0 2px 20px rgb(212 216 232 / 52%);
+    padding: 30px;
+    border-radius: 8px;
+    margin: 0 0 20px;
+    position: absolute;
+    right: 80px;
+    top: 100px;
+    width: 435px;
+    height: 585px;
+}
+
+h2{
+    color: #4A4A4a;
+    font-weight: 600;
+    font-size: 30px;
+    margin: 10px 0px 20px;
+}
+
+span{
+    color: #5E595E;
+    font-size: 14px;
+}
+
+.container .row {
+    display: flex;
+}
+
+.column img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    box-shadow: 0 1px 5px rgb(0 0 0 / 20%);
+    transition: box-shadow .2s ease;
+    margin-right: 5px;
+}
+
+line{
+    stroke: #d0d0d0;
+    stroke-width: 2;
+    
+}
+
+input{
+    width: 100%;
+    height: 45px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: 1px solid #d0d0d0;
+    transition: border-color .3s ease;
+    box-shadow: none;
+    line-height: normal;
+    padding: 12px 20px;
+}
+
+button{
+    width: 100%;
+    border-radius: 20px;
+    height: 40px;
+    padding: 8px 22px;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    background: #0b68e8;
+    font-weight: 600;
+}
+
+.container .others{
+    text-align: center;
+    line-height: 2;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+  }
+
+
+
+
+
+
+
