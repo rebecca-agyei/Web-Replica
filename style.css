@@ -12,9 +12,19 @@ body{
     overflow-x: hidden;
     overflow-y: scroll;
     font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif !important;;
-
 }
 
+@media (min-width: 60em)
+{.container {
+    max-width: 1600px;
+}}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%
+}
 .container .smart{
     position: absolute;
     left: 30px; 
@@ -40,6 +50,7 @@ body{
 
 ul li{
     margin: 5px 0;
+    list-style-type: none;
 }
 
 .container .sign-in{
@@ -52,9 +63,16 @@ ul li{
     position: absolute;
     right: 80px;
     top: 100px;
-    width: 435px;
+    width: 438px;
     height: 585px;
 }
+
+@media screen and (max-width: 438px) {
+    .container .sign-in {
+      width: 100%;
+      height: auto;
+      position: fixed;
+    } }
 
 h2{
     color: #4A4A4a;
@@ -97,6 +115,10 @@ input{
     box-shadow: none;
     line-height: normal;
     padding: 12px 20px;
+}
+
+input[type=email]:focus {
+    border: 1px solid #555;
 }
 
 button{
